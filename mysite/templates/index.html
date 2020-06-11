@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Text Modder</title>
+</head>
+<body>
+<h1>Welcome to text analyser</h1>
+<h2>Please Enter your text below</h2>
+<form action='/analyzetext' method='get'>
+    <textarea name="text" style='margin: 0px; height: 44px; width: 373px;' spellcheck='false'></textarea><br>
+    <input type="checkbox" name="removepunc">Remove Punctuations</input><br>
+    <input type="checkbox" name="removenewline">Remove Newlines</input><br>
+    <input type="checkbox" name="capfirst">Capitalise First Character</input><br>
+    <button type='submit'>Analyse text</button>
+</form>
+</body>
+</html>
